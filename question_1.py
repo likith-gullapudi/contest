@@ -1,8 +1,8 @@
 class MyQueue:
 
     def __init__(self):
-        self.a = []  # Change 'a' to 'self.a'
-        self.b = []  # Change 'b' to 'self.b'
+        self.a = []  
+        self.b = []  
 
     def push(self, x: int) -> None:
         if self.b == []:
